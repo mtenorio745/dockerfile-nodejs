@@ -3,11 +3,14 @@ CP1 - 2TCNR - CLOUD DEVELOPER
 A atividade prática está na branch "code"
 
 1 - Qual é a principal diferença entre Containers e Docker?
+
 a) Containers são uma tecnologia de virtualização de sistema operacional, enquanto Docker é uma plataforma para criar, implantar e gerenciar contêineres.
+
 
 2 - Como o Docker utiliza namespaces e cgroups para isolar processos e limitar o acesso a recursos do sistema operacional hospedeiro?
 
 a) Namespaces são usados pelo Docker para fornecer um ambiente isolado para os processos em execução dentro de um contêiner, enquanto cgroups são usados para limitar o uso de recursos do sistema, como CPU, memória e rede.
+
 
 3 - Neste exercício, será explorado uma aplicação prática de Dockerfile seguindo o dia a dia de Ana, uma desenvolvedora Python, em sua jornada para garantir consistência e replicabilidade em seu ambiente de desenvolvimento:
 
