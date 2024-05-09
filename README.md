@@ -1,4 +1,5 @@
 CP1 - 2TCNR - CLOUD DEVELOPER
+
 A atividade prática está na branch "code"
 
 1 - Qual é a principal diferença entre Containers e Docker?
