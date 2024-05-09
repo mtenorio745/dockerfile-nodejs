@@ -6,10 +6,13 @@ A atividade prática está na branch "code"
 a) Containers são uma tecnologia de virtualização de sistema operacional, enquanto Docker é uma plataforma para criar, implantar e gerenciar contêineres.
 
 2 - Como o Docker utiliza namespaces e cgroups para isolar processos e limitar o acesso a recursos do sistema operacional hospedeiro?
+
 a) Namespaces são usados pelo Docker para fornecer um ambiente isolado para os processos em execução dentro de um contêiner, enquanto cgroups são usados para limitar o uso de recursos do sistema, como CPU, memória e rede.
 
 3 - Neste exercício, será explorado uma aplicação prática de Dockerfile seguindo o dia a dia de Ana, uma desenvolvedora Python, em sua jornada para garantir consistência e replicabilidade em seu ambiente de desenvolvimento:
+
 A - Por que Ana decidiu usar um Dockerfile em seu projeto?
+
 Resposta: Ana optou por usar um Dockerfile porque percebeu que isso ajudaria a manter o ambiente de desenvolvimento igualzinho em todas as máquinas da equipe. Isso é super útil porque, usando o Dockerfile, ela consegue especificar qual versão do Python usar, quais bibliotecas instalar (como as de machine learning que ela precisa), e até mesmo copiar o código-fonte para dentro do contêiner. É como ter uma receita de bolo que garante que o bolo saia igual em qualquer cozinha que você usar. Isso evita aquele drama de algo funcionar no computador de um e no do outro não, além de facilitar bastante a vida quando alguém novo entra no time.
 
 B - Quais são as etapas que Ana precisa seguir para testar o serviço em um ambiente de teste usando apenas o Dockerfile?
